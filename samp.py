@@ -55,7 +55,7 @@ if __name__ == '__main__':
             time.sleep(.1)    
     except(KeyboardInterrupt):
          os.system('cls' if os.name == 'nt' else 'clear')
-                  print('SA:MP DoS')
+                  print("SA:MP DoS")
          print('\n\n')
          print('ATTACK IP {}'.format(orgip))
          pass
